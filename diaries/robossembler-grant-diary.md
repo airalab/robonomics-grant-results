@@ -5,6 +5,24 @@
 
 ---
 
+## Grant Diary no. 2
+
+* **Date**: from 01.07.2021 to 14.07.2021
+
+### Design
+
+* Released first designs of [3D-print tool](https://gitlab.com/robosphere/arm-tools/3d-print-tool), [connection tool](https://gitlab.com/robosphere/arm-tools/connection-tool)(tool for connect other tools to manipulator)
+* Released improved versions of [soldering](https://gitlab.com/robosphere/arm-tools/soldering-tool) and [welding](https://gitlab.com/robosphere/arm-tools/welding-tool) tools
+* [Started](https://gitlab.com/robosphere/arm-tools/grip-tool/-/issues/1) design mechanical gripper tool with [overview](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/gripper-tools-research) of currently existed models
+
+### Research
+
+* Published [research](https://robosphere.gitlab.io/robossembler-docs/docs/mining) of possible approached to mine resources in self-replicated industrial systems. This work partly visualized in session of Gravity Sketch VR-modeling (not ready for publish yet)
+* We are still searching for a modern state-of-the-art approaches to automating robot programming through reinforcement learning. The results are published in the [article](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/machine-learning-in-robotics). Over the next two weeks, we plan to complete the selection of tools and approaches for programming Robossembler agents and begin to implement them in code.
+
+
+---
+
 ## Grant Diary no. 1
 
 * **Date**: from 01.04.2021 to 01.07.2021
