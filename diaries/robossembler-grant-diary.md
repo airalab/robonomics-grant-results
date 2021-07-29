@@ -5,6 +5,34 @@
 
 ---
 
+## Grant Diary no. 3
+
+* **Date**: from 15.07.2021 to 28.07.2021
+
+### Design
+
+* Released 3rd version of [connection tool](https://gitlab.com/robosphere/arm-tools/connection-tool)
+* Published 1st version of [extruder tool](https://gitlab.com/robosphere/arm-tools/extrude-melt-tool) for compound extruding
+* Still under developement [gripper tool](https://gitlab.com/robosphere/arm-tools/grip-tool). Task is very challenging because we need tool, that can be simply assembled with same grippers without programming complexity overhead
+
+### Technology
+
+* Founded new material for roboarm link - [Furfural Resin](https://gitlab.com/robosphere/robossembler-docs/-/issues/3#note_635775190), that is maded from wood
+
+### Simulation
+
+* Published first version of [Unreal Engine Project](https://gitlab.com/robosphere/robossembler-unreal-engine-project) with two basic scenes
+  * `robot arm assembly line` - for assembly simulation with CAD-exported models of tools, arms, CNC's
+  * `self replicated factory` - for replication simulation with abstract blocks - created during online [VR-modeling sessions](https://www.youtube.com/playlist?list=PLTch2Mxp-At8FouCLnO5gBmhlm-VwQ6fH)
+
+### Research
+
+* Research of RL in robotic arm manipulation applications are finished [article](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/machine-learning-in-robotics)
+* Started research of 3D-formats to automated extract CAD-models to packages for manufactoring
+
+
+---
+
 ## Grant Diary no. 2
 
 * **Date**: from 01.07.2021 to 14.07.2021
