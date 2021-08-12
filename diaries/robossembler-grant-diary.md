@@ -5,6 +5,24 @@
 
 ---
 
+## Grant Diary no. 4
+
+* **Date**: from 29.07.2021 to 11.08.2021
+
+### Design
+
+* v0.1 [library for storing tools](https://gitlab.com/robosphere/arm-tools/tools-library/-/commit/4149cccd652b6c0932685d2465334b9adb38c27e)
+* Released [DIY version of our robot-manipulator](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/5a9e667ef7e2fe21dbf4c1e38dc590999e39e71b) with cheap mass market servos
+* v3 [connection tool](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commit/2f989306f03a8ad18993c840926bc8f8171beb84)
+* Gripper tool still under developement
+* Started functional electric schematics of roboarm workspace (manipulator + tools)
+
+### Research
+
+* We started to explore Open Cascade Technology (OCCT) - industrial quality open source geometric core (C++ library) for CAD systems (FreeCAD is based on that). OCCT with be used to analyse/decompose assemblies for assembly task management automation and model reuse.
+
+---
+
 ## Grant Diary no. 3
 
 * **Date**: from 15.07.2021 to 28.07.2021
