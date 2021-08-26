@@ -5,6 +5,28 @@
 
 ---
 
+## Grant Diary no. 5
+
+* **Date**: from 12.08.2021 to 25.08.2021
+
+### Design
+
+* Published robossembler's unique [5-axis CNC](https://gitlab.com/robosphere/cnc/5-axis-cnc/-/commit/64c0cccec28701ebb6ab639c788e5cf799789924), that will be used in manufactoring parts of roboarm
+* Published detailed version of our [roboarm](https://gitlab.com/robosphere/roboarm/-/commit/609efe7ee400e81a2e5ee4066dde684731a8d91e)
+* Published [mold](https://gitlab.com/robosphere/cnc/roboarm-link-mold/-/commit/5aeb83a9687e925d8cc73f9d0f8234017fd54e00) for roboarm link manufactoring
+* Published updated version of [workspace](https://gitlab.com/robosphere/cnc/roboarm-workspace/-/commit/4ea13cfe3fac381ef10bc6b9089eef998db51870) for roboarm
+* Updated [connection tool](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commit/b35a9a9a0155088bf90e62350869f0f08561b7ad)
+* Updated [gripper tool](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/899cc0c226658d2b8d296c76f9dd2c39e9c0207b)
+
+
+### Research
+
+* I have found very interesting EU grant research project [PERFoRM](https://cordis.europa.eu/project/id/680435). One of results in this research - comparison of different manufactoring data interchange formats, that leads to develope another format - PERFoRMML ([specification](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5afcc224f&appId=PPGMS)). It will help for us with choosing standartized way to data-exchange with CNC, roboarms and another CPS in Robossembler.
+* Added some useful tools in our [awesome-open-source-robotics list](https://gitlab.com/robosphere/open-source-robotics-projects/-/commit/e9ddc1be7efc2590acb2e6831c244fec0785b430)
+
+
+---
+
 ## Grant Diary no. 4
 
 * **Date**: from 29.07.2021 to 11.08.2021
