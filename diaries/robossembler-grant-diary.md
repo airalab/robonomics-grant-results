@@ -5,6 +5,7 @@
 
 ---
 
+
 ## Grant Diary no. 5
 
 * **Date**: from 12.08.2021 to 25.08.2021
@@ -23,7 +24,6 @@
 
 * I have found very interesting EU grant research project [PERFoRM](https://cordis.europa.eu/project/id/680435). One of results in this research - comparison of different manufactoring data interchange formats, that leads to develope another format - PERFoRMML ([specification](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5afcc224f&appId=PPGMS)). It will help for us with choosing standartized way to data-exchange with CNC, roboarms and another CPS in Robossembler.
 * Added some useful tools in our [awesome-open-source-robotics list](https://gitlab.com/robosphere/open-source-robotics-projects/-/commit/e9ddc1be7efc2590acb2e6831c244fec0785b430)
-
 
 ---
 
