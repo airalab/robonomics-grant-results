@@ -6,6 +6,25 @@
 ---
 
 
+## Grant Diary no. 6
+
+* **Date**: from 26.08.2021 to 09.09.2021
+
+### Design
+
+* [Version 3](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commit/6a2c4309b73d45977495bc7879f55477e2cb8024) of connection tool (interface)
+* Published [soldering cartridge](https://gitlab.com/robosphere/arm-tools/solder-cartridge/-/commit/89f0e2bb8b8c0c955a8941743d996f3df65d3eb4) for soldering tool
+* Updated [gripper-tool](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commit/6a2c4309b73d45977495bc7879f55477e2cb8024). Work in progress
+* A model of a CNC machine is being developed, parts of which can be manufactured on it itself
+
+### Research
+
+* We investigate advanced techniques for processing and separating substances from industrial and household waste. These technologies may be required to find an affordable and profitable way for a robot factory to extract resources not only from natural sources, but also from the technosphere. A report on this work will be published soon.
+* Several scenarios for integrating the Robossembler project with the Robonomics Network have been developed. They are currently being coordinated with the Robonomics team.
+
+---
+
+
 ## Grant Diary no. 5
 
 * **Date**: from 12.08.2021 to 25.08.2021
