@@ -6,6 +6,29 @@
 ---
 
 
+## Grant Diary no. 7
+
+* **Date**: from 10.09.2021 to 24.09.2021
+
+### Design
+
+* New [extrude&melt tool](https://gitlab.com/robosphere/arm-tools/extrude-melt-tool)
+* Published DIY-roboarm [version 2](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/ba67f3ca1eaadc4fcedd677380c4462f730379e4)
+* Updated [gripper-tool](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/a3a3e83c06fc2b46fbdb2bda97de6a1444f6c31f)
+* We make decision to unify our robots and instead of creating separate transporter we will create wheel-modules to workspaces
+
+### Programming
+
+* We have started to develope [python-package](https://gitlab.com/robosphere/ignition-fuel-export) to automate CAD -> Ignition Fuel export
+* [Started](https://gitlab.com/robosphere/roboarm/-/issues/4) Ignition Gazebo integration with ROS and our CAD-models
+
+### Research
+
+* We have found solution to replace classic CNC for CNC-based operations - milling, etc. It will be presented in near future
+
+---
+
+
 ## Grant Diary no. 6
 
 * **Date**: from 26.08.2021 to 09.09.2021
