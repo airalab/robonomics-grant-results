@@ -45,8 +45,8 @@
 * We investigate advanced techniques for processing and separating substances from industrial and household waste. These technologies may be required to find an affordable and profitable way for a robot factory to extract resources not only from natural sources, but also from the technosphere. A report on this work will be published soon.
 * Several scenarios for integrating the Robossembler project with the Robonomics Network have been developed. They are currently being coordinated with the Robonomics team.
 
----
 
+---
 
 ## Grant Diary no. 5
 
