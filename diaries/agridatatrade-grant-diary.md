@@ -16,6 +16,7 @@
 We have decided to order the following Hach sensor components as the initial set of 2. All amounts are in New Zealand Dollars (NZD):
 
 TWO SENSORS:
+
 * (Line 2 PN 2001H) Top casing: $4544 (HL4) - x2 (qty)
 * (Line 5 PN 2001H) pH attachment with refill ($688) - x2 (qty)
 * (Line 10 PN 2001H) Nitrate attachment ($827) - x2 (qty)
@@ -24,6 +25,7 @@ TWO SENSORS:
 * (Line 21 PN 2001H) RS485 ($321) - x2 (qty)
 
 CONSUMABLES:
+
 * (Line 11 PN 2001H) 3-month supplies of pH pellets at $259 - x4 (qty)
 * (Line 6 PN 2001H) pH ref solution ($15.70) - x1 (qty)
 * (Line 7 PH 2001H) salt tablets ($15.70) - x1 (qty)
