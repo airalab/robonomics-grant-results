@@ -5,6 +5,28 @@
 
 ---
 
+## Grant Diary no. 8
+
+* **Date**: from 25.09.2021 to 08.10.2021
+
+[New index page](https://robosphere.gitlab.io/robossembler-docs/docs/) with links to all project repos.
+
+### Design
+
+* New [post-processing tool](https://gitlab.com/robosphere/arm-tools/post-processing-tool) - lightweight alternative to classic CNC-machines for milling
+* New [scanning tool](https://gitlab.com/robosphere/arm-tools/scan-tool)
+* Updated [welding tool](https://gitlab.com/robosphere/arm-tools/welding-tool)
+
+### Programming
+
+* [Ignition Fuel Export plugin](https://gitlab.com/robosphere/ignition-fuel-export) alpha release
+
+### Research
+
+* [Assembly Challenge Project from o2ac team](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/o2ac-repo-review) overview
+* [Plansys2 framework](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/plansys2) overview
+
+---
 
 ## Grant Diary no. 7
 
