@@ -9,7 +9,7 @@
 
 ---
 
-## Grant Diary no. 1
+## Grant Diary no. 2
 
 * **Date**: 18.10.2021
 
@@ -19,6 +19,8 @@
 * Trust of the data remains an issue.
 * Using IPFS for time series data is also an issue that appears that IPFS is not suitable for frequent updates like we plan (the transaction cost may become prohibitive). We will explore this further before the sensors arrive in a few weeks.
 * Some of the ongoing work on MQTT connector is here: [https://github.com/AgriData-Trade/robonomics_mqtt](https://github.com/AgriData-Trade/robonomics_mqtt)
+
+## Grant Diary no. 1
 
 * **Date**: 01.10.2021
 
