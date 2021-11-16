@@ -5,6 +5,60 @@
 
 ---
 
+## Grant Diary no. 10
+
+* **Date**: from 24.10.2021 to 07.11.2021
+
+### Design
+
+* Transport Module [updated](https://gitlab.com/robosphere/transport-module/-/commit/6c91ef2615cebb240df3c89797f5f92f3972a72f)
+* Gripper [optimized](https://gitlab.com/robosphere/arm-tools/grip-tool/-/merge_requests/6) for automatic assembly and some other improvements, [added](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commits/8-simple-construction-grip-tool) short version 
+* Published [sources](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/6ef4b6f6ddde26f146c227a94a6038a383e97d88)  for Topoligical Optimized 3D-printed Robot-manipulator
+
+### Programming
+
+* Working scene with ROS2 & MoveIt2
+* Fixed [textures](https://gitlab.com/robosphere/ignition-fuel-export/-/merge_requests/7) in SDF-package for Ignition Fuel Exporter
+
+### Simulation
+
+* Started test integration ROS2 & Unity with Unity-Robotics-Hub or other middleware packages - ROS-for-Unity, DDS-for-Unity. Gazebo isn't suitable for multi-agent systems. Now we decide to simulate small manipulation tasks in Gazebo and Unity for multi-agent scenarios.
+
+### Research
+
+* We have started to prepare publication for IEEE with architecture of Robossembler & Robonomics integration
+* Published San Diego UC Assembly Challenge 2020 Paper's [overview](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/wrs2020-assembly-challenge#%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-uc-san-diego)
+
+
+---
+
+## Grant Diary no. 9
+
+* **Date**: from 09.10.2021 to 23.10.2021
+
+### Design
+
+* Published second version of [Transport module](https://gitlab.com/robosphere/transport-module/-/commit/d902a3a0d1c672c099de88c49b525279a5ad5be7) with README
+* [Connector interface](https://gitlab.com/robosphere/arm-tools/connection-tool) version 4, now it's symmetric!
+* [Gripper](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/105af0651ca4bce28df70af55612eb39db69d3ce) became more stable
+* [Published](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/bd3d4f472fcbab190ba8409a60c167f1030ac50a) 3D-printing Robot-manipulator. Successfully finished topological optimisation of this version and it will be released in next 2 weeks
+
+### Programming
+
+* [Ignition Fuel Export plugin](https://gitlab.com/robosphere/ignition-fuel-export) - added pythonocc support, improved composability, added preview of assemblies in Ignition Fuel packages
+
+### Simulation
+
+* Published [assembly plan's draft](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/76fe047426745f05c3fd618fd5420b626dbeea6e) for 3D-printing Robot-manipulator
+* We [have started](https://gitlab.com/robosphere/robossembler-ros2/-/commits/dev-motion-planning-ignition-gazebo) Ignition Gazebo integration
+
+### Research
+
+* Assembly Sequence Planning State-of-the-Art [overview](https://robosphere.gitlab.io/robossembler-docs/docs/technologies/ASP-overview)
+
+
+---
+
 ## Grant Diary no. 8
 
 * **Date**: from 25.09.2021 to 08.10.2021
