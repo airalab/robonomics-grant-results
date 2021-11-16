@@ -9,6 +9,12 @@
 
 ---
 
+## Grant Diary no. 3
+
+* **Date**: 17.11.2021
+
+* While we are ready to deploy the sensors, we have yet another problem with Hach delivering the sensors - we received half of the order for the two sensors with batteries missing in both and delayed until mid January. I will amend this with Hach email when they will list all the ETA's as soon as I get them. We would be interested in exploring alternative N sensors but Hach seem to be the "state of the art" ones as far as we can tell so far. So we will look at alternatives now while waiting for Hach HL4 to arrive in mid January.
+
 ## Grant Diary no. 2
 
 * **Date**: 18.10.2021
