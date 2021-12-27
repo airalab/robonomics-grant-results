@@ -8,6 +8,43 @@
 * **Proposal**: https://github.com/airalab/robonomics-grant-program/blob/main/proposals/agridatatrade.md
 
 ---
+## Grant Diary no. 4
+
+* **Date**: 10.12.2021
+
+* Good news! We have two $8,000 Hach N sensors assembled and ready to go. We have two little boxes with Arduino communicating via local mobile network. The sensors will be connected via modbus to the Arduino box and the Arduino box will then use MQTT to talk to a server at VUW. The server at VUW will then create a Node for each sensor on the Robonomics.Network!
+
+* We plan to deploy them on the actual farm over the next few weeks and tidy up the front end and signing the data to be able to trust each deployed sensor (which can still be manipulated if say someone were to move it physically - so we need to audit the deployed sensors to ensure they are not tampered with).
+
+* There is an identified issue with storing "time series" data on the blockchain as the entire history gets duplicated when the new "link" is created - which means our data may be too large really quickly to store on the blockchain. We are working through these issues.
+
+* We are exploring 3 other manufacturers in addition to Hach and also planning to use SDI-12 rather than modbus. The others are:
+
+1. [http://www.hydrometrics.co.nz/](http://www.hydrometrics.co.nz/)
+2. [https://www.trios.de/en/nico-plus.html](https://www.trios.de/en/nico-plus.html)
+3. [https://ecodetection.com/technology/](https://ecodetection.com/technology/)
+
+* We have planned meetings with the above three companies over the next couple of weeks before Christmas. While Hach uses "pH sensor" in combindation with conductivity to detect Nitrates, the other three use UV sensors to detect N concentration in the water and may be more reliable to deploy long term with less maintenance than Hach.
+
+## Grant Diary no. 3
+
+* **Date**: 17.11.2021
+
+* While we are ready to deploy the sensors, we have yet another problem with Hach delivering the sensors - we received half of the order for the two sensors with batteries missing in both and delayed until mid January. I will amend this with Hach email when they will list all the ETA's as soon as I get them. We would be interested in exploring alternative N sensors but Hach seem to be the "state of the art" ones as far as we can tell so far. So we will look at alternatives now while waiting for Hach HL4 to arrive in mid January.
+
+* Plan B is to develop the site and connect to Robonomics with "dummy data" until the real sensors arrive so we can get the infrastructure working and explore token creation as originally proposed. [https://frontend-agridata.vercel.app/map](https://frontend-agridata.vercel.app/map).
+
+* We are now looking at alternative sensor to Hach HL4: [http://www.hydrometrics.co.nz/Specifications/](http://www.hydrometrics.co.nz/Specifications/) - we will keep you posted.
+
+## Grant Diary no. 3
+
+* **Date**: 17.11.2021
+
+* While we are ready to deploy the sensors, we have yet another problem with Hach delivering the sensors - we received half of the order for the two sensors with batteries missing in both and delayed until mid January. I will amend this with Hach email when they will list all the ETA's as soon as I get them. We would be interested in exploring alternative N sensors but Hach seem to be the "state of the art" ones as far as we can tell so far. So we will look at alternatives now while waiting for Hach HL4 to arrive in mid January.
+
+* Plan B is to develop the site and connect to Robonomics with "dummy data" until the real sensors arrive so we can get the infrastructure working and explore token creation as originally proposed. [https://frontend-agridata.vercel.app/map](https://frontend-agridata.vercel.app/map).
+
+* We are now looking at alternative sensor to Hach HL4: [http://www.hydrometrics.co.nz/Specifications/](http://www.hydrometrics.co.nz/Specifications/) - we will keep you posted.
 
 ## Grant Diary no. 2
 
