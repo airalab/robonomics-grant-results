@@ -8,6 +8,19 @@
 * **Proposal**: https://github.com/airalab/robonomics-grant-program/blob/main/proposals/agridatatrade.md
 
 ---
+## Grant Diary no. 5
+
+* **Date**: 21.01.2022
+
+* We have now got two working Hach HL sensors that connect via local mobile network to a server using MQTT that then is able to publish the sensor data to the Robonomics Network.
+
+* [https://alexpotanin.blogspot.com/2021/12/comparison-of-different-nitrate.html](https://alexpotanin.blogspot.com/2021/12/comparison-of-different-nitrate.html)
+* [https://www.facebook.com/EngineeringAndCompSciAtTeHerengaWaka/photos/pcb.7242500949125691/7242498849125901](https://www.facebook.com/EngineeringAndCompSciAtTeHerengaWaka/photos/pcb.7242500949125691/7242498849125901)
+
+* There is an ISSUE with posting time series data on a blockchain as it is prohibitively expensive, so Leon Bowie is currently investigating this as our Research Assistant. It would help if a Zoom meeting with Leon and maybe Ivan or Sergey is organised soon.
+
+* Our next visit to the river sensors is on 5 February 2022 whereupon we will connect the second sensor and fix the modbus connection to the first sensor that is currently broken - we are switching to SDI12.
+ 
 ## Grant Diary no. 4
 
 * **Date**: 10.12.2021
