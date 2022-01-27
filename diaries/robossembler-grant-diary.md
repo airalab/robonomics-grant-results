@@ -3,6 +3,45 @@
 * **Project Name:** Robossembler
 * **Proposal**: [Robossembler Proposal](https://github.com/airalab/robonomics-grant-program/tree/main/proposals/robossembler.md)
 
+
+---
+
+## Grant Diary no. 15
+
+* **Date**: from 07.01.2022 to 21.01.2022
+
+### Design
+
+* NEW MOTOR! Now is almost fully printed version - [commit](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/0386db9a247b4859f21d02f5ff8453c7f5d1e94a) with image preview
+* Manipulator base link or interface part of Cubic Workspace [prepared](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/c04fbafa835dc44bcaf19889ec990d2dc2f0a595) for PCB integration
+* Cubic workspace scene [preparing](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/2d9a68e65ca3a0f85139ac3e52ee97104c6d7561) for simulation 
+
+### Programming
+
+* MoveIt2 & Plansys2 [integration](https://gitlab.com/robosphere/robossembler-ros2/-/commit/8c6b912e00006a26471715d173f4126f2a58170a) - Plansys2 move action for MoveIt
+* Added mapping to pddl actions for [assembly sequence](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/f38dbd271aaf463b9bee1b3641c2770b7150c9a7)
+* Robossembler ROS2 project with Task & Motion Planning in Gazebo & RViz works for Roboarm-DIY-version and it's Gripper! [Merge-request](https://gitlab.com/robosphere/robossembler-ros2/-/merge_requests/3) with 74 commits
+
+### Simulation
+
+* Optimizing DIY roboarm's [meshes](https://gitlab.com/robosphere/robossembler-ros2/-/commits/add-mesh-visual) for multi-agent simulation performance
+
+### Research
+
+* Added multi-agent planning related [page](https://gitlab.com/robosphere/robossembler-docs/-/commit/d11667bfc02984921004273ef87263bd22a61467)
+
+---
+
+## Grant Diary no. 14
+
+* **Date**: from 23.12.2021 to 06.01.2022
+
+### Design
+
+* Short, more compact & lightweight version of Gripper (branch [smpl-grip-tool](https://gitlab.com/robosphere/arm-tools/grip-tool/-/tree/smpl-grip-tool))
+* Passive (without motor) version of [mechanical connection inteface](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commits/passive_connection_tool)
+* [Cubic workspace](https://gitlab.com/robosphere/cnc/cubic-modular-workspace) pre-alpha !
+
 ---
 
 ## Grant Diary no. 13
