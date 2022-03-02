@@ -29,4 +29,23 @@
 ### Software
 * Did research on existing software to be used as basis for the development
 * forked the [repository](https://github.com/fischertechnik/txt_training_factory) of the factory software as a basis for further development 
+
+---
+
+## Grant Diary no. 2
+
+* **Date**: 14.02.2022 - 25.02.2022
+
+### Adjustments to the Model Factory
+* Ordered additional parts for the Factory
+* Added additional parts to the Factory
+* Evaluated the ideal Positioning of the Localization Sensors and Tags
+
+### Software
+* Started to work with the existing software for the Training Factory
+* Set up the Toolchain for programming the Training Factory
+* Started to implement the software for the new Factory Setup with the additional parts
+
+### Literature Research
+* Did additional Research for the Localization interface
     
