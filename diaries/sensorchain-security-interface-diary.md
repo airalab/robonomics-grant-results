@@ -48,4 +48,3 @@
 
 ### Literature Research
 * Did additional Research for the Localization interface
-    
