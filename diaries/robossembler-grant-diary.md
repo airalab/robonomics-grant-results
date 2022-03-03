@@ -3,6 +3,112 @@
 * **Project Name:** Robossembler
 * **Proposal**: [Robossembler Proposal](https://github.com/airalab/robonomics-grant-program/tree/main/proposals/robossembler.md)
 
+
+---
+
+## Grant Diary no. 15
+
+* **Date**: from 07.01.2022 to 21.01.2022
+
+### Design
+
+* NEW MOTOR! Now is almost fully printed version - [commit](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/0386db9a247b4859f21d02f5ff8453c7f5d1e94a) with image preview
+* Manipulator base link or interface part of Cubic Workspace [prepared](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/c04fbafa835dc44bcaf19889ec990d2dc2f0a595) for PCB integration
+* Cubic workspace scene [preparing](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/2d9a68e65ca3a0f85139ac3e52ee97104c6d7561) for simulation 
+
+### Programming
+
+* MoveIt2 & Plansys2 [integration](https://gitlab.com/robosphere/robossembler-ros2/-/commit/8c6b912e00006a26471715d173f4126f2a58170a) - Plansys2 move action for MoveIt
+* Added mapping to pddl actions for [assembly sequence](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/f38dbd271aaf463b9bee1b3641c2770b7150c9a7)
+* Robossembler ROS2 project with Task & Motion Planning in Gazebo & RViz works for Roboarm-DIY-version and it's Gripper! [Merge-request](https://gitlab.com/robosphere/robossembler-ros2/-/merge_requests/3) with 74 commits
+
+### Simulation
+
+* Optimizing DIY roboarm's [meshes](https://gitlab.com/robosphere/robossembler-ros2/-/commits/add-mesh-visual) for multi-agent simulation performance
+
+### Research
+
+* Added multi-agent planning related [page](https://gitlab.com/robosphere/robossembler-docs/-/commit/d11667bfc02984921004273ef87263bd22a61467)
+
+---
+
+## Grant Diary no. 14
+
+* **Date**: from 23.12.2021 to 06.01.2022
+
+### Design
+
+* Short, more compact & lightweight version of Gripper (branch [smpl-grip-tool](https://gitlab.com/robosphere/arm-tools/grip-tool/-/tree/smpl-grip-tool))
+* Passive (without motor) version of [mechanical connection inteface](https://gitlab.com/robosphere/arm-tools/connection-tool/-/commits/passive_connection_tool)
+* [Cubic workspace](https://gitlab.com/robosphere/cnc/cubic-modular-workspace) pre-alpha !
+
+---
+
+## Grant Diary no. 13
+
+* **Date**: from 08.12.2021 to 22.12.2021
+
+### Design
+
+* Electrical interface [improved](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/ceece7e5520480bb2286a2f07e4d37f772c3b40f) in diy-roboarm for cordless connectivity
+* Cubic [modular workspace](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/ceece7e5520480bb2286a2f07e4d37f772c3b40f) concept ([image](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/blob/b067acc246894370a004600dd5d5321a2fa73602/img/cube_v1.png))
+
+### Programming
+
+* [Switched](https://gitlab.com/robosphere/robossembler-ros2/-/commit/f6a18c3c9253e288ecf7cc7dde9dab6b4a48d165) to Behaviour tree action node for planning instead of Moveit MoveGroup interface
+* ARBench FreeCAD plugin [ported](https://gitlab.com/robosphere/forks/ARBench/-/commit/c410442b9849dec9299cf403df228c33133a4540) to FreeCAD 0.19 for markup parts in assemblies
+* arbench_part_publisher (ROS node for publishing geometric metadata received from FreeCAD with ARBench) [ported](https://gitlab.com/robosphere/forks/arbench_part_publisher/-/commits/foxy-devel) to ROS2 Foxy and tested
+
+### Simulation
+
+* ROS2 project successfully compiled and works with plansys2 and moveit. [README.md](https://gitlab.com/robosphere/robossembler-ros2/-/commit/cece8b24aa55f110267d3dab645624b374e3363d) manual tested for reproduce
+
+### Research
+
+* [Graph-database overview](https://gitlab.com/robosphere/robossembler-docs/-/commit/3a792cfabbffcd2dbd722ae86862869c3cb5c86e) for robossembler knowledge database
+
+---
+
+## Grant Diary no. 12
+
+* **Date**: from 23.11.2021 to 07.12.2021
+
+### Design
+
+* [Version 0.3](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/ca54b5aae0c190d4bc3e471d8c1d2011d3e0ce92) of diy-robot-manipulator
+* Added [calculation report](https://gitlab.com/robosphere/roboarm-diy-version/-/blob/91a1a993ab132887202ebb202b59538f2bb2a8fc/calc/Mathcad%20-%20reduce.pdf) for gearbox
+* Grip-tool branched into [rotatable](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commits/rotatable-grip-tool-v3.1) (with 2 motors) and short (with 1 motor) version. To short version [added](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/881ad0213f969db3686923eca981197923f8337d) PCB interfaces
+* Controller board schematics [released](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/d9effed223942346aee5261826abccd5377944f3) ([pdf](https://gitlab.com/robosphere/roboarm-diy-version/-/blob/d9effed223942346aee5261826abccd5377944f3/motor_module.pdf)) in open source EDA KiCAD format
+
+### Programming
+
+* In Plansys2 & MoveIt2 integration added [first draft](https://gitlab.com/robosphere/robossembler-ros2/-/commit/dffd9816bd5d407f652fcca2010d947df9984e30)
+
+---
+
+## Grant Diary no. 11
+
+* **Date**: from 08.11.2021 to 22.11.2021
+
+### Design
+
+* Updated interfaces for [molded Roboarm](https://gitlab.com/robosphere/roboarm/-/commit/7a7215f2ea0ae75bd6c07b1ae726e9ff5aa52cda) and [hexagonal workspace](https://gitlab.com/robosphere/cnc/roboarm-workspace/-/commit/68a742f06bdc71d38350f31469742930f1f2ecb4)
+* Updated connection interface for [grip tool](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/c64900ac6a5d3c87658feaccf3df85d6723f09d3) and [other improvements](https://gitlab.com/robosphere/arm-tools/grip-tool/-/commit/d84823e11a3e1f44801669f7ba78196ed2bd5618)
+* First [schematic design](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/82f42159e0942b1277111a14512fb040b5dfb588) of motor controller board
+* Improved [hexagonal workspace interface](https://gitlab.com/robosphere/cnc/roboarm-workspace/-/commit/de8118fe45ebac220cf98bc68a6754d82cc5b622)
+* Updated [Gearbox](https://gitlab.com/robosphere/robossembler-ros2/-/commit/88fc464fafeac93e99b35419bcbe79cd8c6a8da9) for DIY-manipulator
+
+### Programming
+
+* Started MoveIt2 and Plansys2 integration
+
+### Simulation
+
+* Updated [robot description package](https://gitlab.com/robosphere/robossembler-ros2/-/commit/dfaea654f1160fb16f69fa5bdbc3eed5b6cbdb15) with URDF and configs
+* Added [simplified STEP-model](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/c3498fa3f36aef00ef128459721192df6173c93a) of DIY-manipulator
+* Added [camera interface](https://gitlab.com/robosphere/robossembler-ros2/-/commit/88fc464fafeac93e99b35419bcbe79cd8c6a8da9) in Gazebo simulation
+
+
 ---
 
 ## Grant Diary no. 13
