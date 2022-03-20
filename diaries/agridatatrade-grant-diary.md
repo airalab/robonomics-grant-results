@@ -8,6 +8,27 @@
 * **Proposal**: https://github.com/airalab/robonomics-grant-program/blob/main/proposals/agridatatrade.md
 
 ---
+## Grant Diary no. 6
+
+* **Date**: 04.03.2022
+
+* We now have a working sensor in the actual river and we have tested that the data can be extracted from the sensor deployed, via the little box connected via SDI12 to the sensor then over MQTT to the server which then publishes to the Robonomics platform. We only posted a small number of hashes for now as a test as there is still tiny cost to doing so.
+
+* We are now making sure we have 4 identical boxes on the principle above and ordered two more (final) sensors that are using UV based measurement of N made by TriOS (NICO, German made) as opposed to pH based measurement of N made by Hach (US made). TriOS are supposed to arrive in a month.
+
+* Sensor spending costs are as follows (exact invoices available if required):
+
+   * Hach HL4 with N, Conductivity, pH, and temperature attachments, 25m cable, SDI12 adapter, and calibration solutions: approximately $8000 NZD each. So we spent $16,000 + GST on these two. [Hach HL4](https://my.hach.com/hydrolab-hl4-sonde-internal-battery-power-temperature-other-integrated-sensors/product?id=59429662467)
+   * TriOS NICO with UV based N sensor, 25m cable, SDI12 adapter: approximately $12,000 each. So we spent $24,000 + GST on these two. [TriOS NICO](https://www.trios.de/en/nico-plus.html)
+
+* So the total spending cost is $40,000 + GST on the sensors in NZD. The grant total was eventually $72,000 as per Yuri's original emails as we managed to convert it into a donation thus avoiding any need to pay taxes.
+
+* There are miscellaneous expenses such as electronics, Ardruino boards, etc etc etc which we expexct can easily total up to $10,000 + GST at absolute most by the end of the project.
+
+* We have a PhD student starting shortly - while she has a scholarship, we plan to help top it up by paying some levies and insurance during her 3 year term as she will be working on building the platform that uses Robonomics to create AgriDataTrade marketplace. We expect around $7500 to be spent over 3 years (so $2500 per year).
+
+* We hence have $57500 accounted for and around $14500 remaining. We will decide later if we want to purchase additional sensors or if this may be spent on any "Robonomics" related fees - which hopefully will be much less now that it moved to Polka Dot. Happy to answer any queries!
+
 ## Grant Diary no. 5
 
 * **Date**: 21.01.2022
