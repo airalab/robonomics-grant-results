@@ -55,4 +55,21 @@ TASK: Case development
     - Ability to verify the luxury products history
 
 
+## Grant Diary no. 2
+
+* **Date**: 31.03.2022
+TASK: Literature review for validation of Interview questions
+- selected relevant papers
+- reviewed papers
+- identified validation points for the interview questions.
+- Sample validation points from article1: Attitude toward counterfeits; Personal integrity; Status  consumption/status- seeking; Materialism; Value consciousness; Personal gratification etc.
+- Sample validation points from article2: Novelty seeking; Integrity; Status consumption; Attitude toward counter-feiting; Perceived risk; Information susceptibility; Physical vanity; Achievement vanity; Intention to purchase.
+- Sample validation points from article3: Luxury Item Ownership; Value Advantage; Ethical Concerns; Social Identity; Social  Judgment; Network Consultation; Fashion Orientation; Poverty Anxiety; Positive China Attitude.
+
+
+
+
+
+
+
 
