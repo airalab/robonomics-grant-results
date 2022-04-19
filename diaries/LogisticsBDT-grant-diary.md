@@ -70,13 +70,14 @@ TASK: Literature review for validation of Interview questions
 ## Grant Diary no. 3
 
 * **Date**: 15.04.2022
+
 TASK: Outlining the initial requirements of the LogisticsBDT app
 - Producing diagram model of the app functions
 
 TASK: Outlining the UI of the LogisticsBDT app
 - Producing Figma representation of the user interface of the app
 
-Interview process
+TASK: Interview process
 - Contacting respondents (users, sellers and producers of luxury accessories)
 - Drafting initial email for the respondents
 - Finalizing survey template and preparing for expert interviews.  
