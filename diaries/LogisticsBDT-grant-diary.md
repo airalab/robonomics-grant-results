@@ -83,6 +83,17 @@ TASK: Interview process
 - Finalizing survey template and preparing for expert interviews.  
 
 
+## Grant Diary no. 4
+
+* **Date**: 30.04.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Conducting expert interviews for sellers and producers and Luxury accessories
+- Analyzing data and developing AS-IS process for luxury products authentication
 
 
+TASK: Implementation tasks
+- Comleting the user-interface design for LogisticsBDT App
+- Completing set up for Robonomics node 
+- Running test sample data upload to Robonomics test network with the Logistics server Node
 
