@@ -97,3 +97,15 @@ TASK: Implementation tasks
 - Completing set up for Robonomics node 
 - Running test sample data upload to Robonomics test network with the Logistics server Node
 
+
+## Grant Diary no. 5
+
+* **Date**: 15.05.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Conducting expert interviews
+- preparing qunatitative survey for luxury product users
+
+TASK: Implementation tasks
+- LogisticsBDT python rest api setup completed and pushed to the repo
+- Successfully deployed Robonoics node and IPFS and logisticsBDT server
