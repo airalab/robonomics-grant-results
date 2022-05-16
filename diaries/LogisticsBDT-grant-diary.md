@@ -54,7 +54,6 @@ TASK: Case development
     - Ability to resale using crypto currencies
     - Ability to verify the luxury products history
 
-
 ## Grant Diary no. 2
 
 * **Date**: 31.03.2022

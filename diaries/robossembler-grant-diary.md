@@ -3,6 +3,81 @@
 * **Project Name:** Robossembler
 * **Proposal**: [Robossembler Proposal](https://github.com/airalab/robonomics-grant-program/tree/main/proposals/robossembler.md)
 
+---
+
+## Grant Diary no. 19
+
+* **Date**: from 05.03.2022 to 18.03.2022
+
+### Design
+
+* Cubic Modular workspace [alpha v0.1](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commits/v0.1) with Simulation Optimized [3D-Assets](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/ed018b11c27bfa03f840e5eb9560175229ea66bf)
+* DIY Roboarm [almost prepared](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/935fd877053ef11939d69a683846eb9b526c500b) for alpha version
+* Working on Motor Controller PCB
+
+### Programming
+
+* Scene monitor [developement](https://gitlab.com/robosphere/robossembler-ros2/-/commit/67d39432e0a5ec01609f09bac54c4ffd30a40602)
+
+### Simulation
+
+* We are started modeling demonstration scene for Gazebo Simulation with Cubic Modular Workspace and Roboarm DIY version
+
+
+---
+
+## Grant Diary no. 18
+
+* **Date**: from 20.02.2022 to 04.03.2022
+
+### Design
+
+* 3D-printable Servo Drive [integrated](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/1af246e95dd267f1bf5f58308b60f6e5d80fad8f) to DIY Roboarm
+
+### Programming
+
+* Grasp Pose json export [added](https://gitlab.com/robosphere/forks/ARBench/-/commit/20900e4ebaa28f58a91387fca6284ac6d4364f13). Export format adopted to ROS2 geometry_msgs/Pose
+
+### Simulation
+
+* `Scene monitor` concept introduced. Robossembler ROS2 project will be able to switch between three environment types: `State Ground Truth` with full information about all object in simulation scene from Gazebo or any other engine, `Sensors Simulation` with simulated sensors and `Real Sensors` for running software modules on real hardware. Scene monitor switching beetwen these environment states on a runtime with same control software. With Ignition Gazebo ECS (entity component system) architecture this approach allow to run different simulations in parallel on same machine and combine results for better robot behaviour.
+
+---
+
+## Grant Diary no. 17
+
+* **Date**: from 06.02.2022 to 19.02.2022
+
+### Design
+
+* KiCAD [schematics](https://gitlab.com/robosphere/roboarm-diy-version/-/commit/158d8f253faee8ebb2f1abf305908ea7444ee5cc) for motor control board is ready!
+* [Added](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/commit/7f4b2992f4d5b46a2e82dee23dc8559224b1db90) first design of edge component for Cubic Modular Workspace
+
+### Programming
+
+* Gripper Support Tool [added](https://gitlab.com/robosphere/forks/ARBench/-/commit/3941c7aae69fc7b448c9cf36ea61e10646323e26) to ARBench
+* [Added](https://gitlab.com/robosphere/robossembler-ros2/-/commit/85de7fa68354bbb763f5213f984972f8d5643c46) 3D-printer Behavior Tree Action node
+
+### Simulation
+
+* [Added](https://gitlab.com/robosphere/robossembler-ros2/-/commit/c6df239ae1fdf9cfe5bfb25978d1fd9e11161c5a) `sdf_models` support package for Gazebo models access  
+
+
+---
+
+## Grant Diary no. 16
+
+* **Date**: from 22.01.2022 to 05.02.2022
+
+### Programming
+
+* [Finished](https://gitlab.com/robosphere/robossembler-ros2/-/commit/dfcc53df09660a7b0b6bf71a544404074483aaad) ROS2 controller for gripper tool and gripper [added](https://gitlab.com/robosphere/robossembler-ros2/-/commit/43c8a363aac1cf7bf01533a63961185a0866cb43) to Plansys2 Behaviour Tree actions
+* [Added](https://gitlab.com/robosphere/robossembler-ros2/-/commit/71cfa0991f2ef0c77e5bc3b01c83eef1fcc09716) build job on merge request for Robossembler ROS2 project with Gitlab CI
+* Annotation Robotics Workbench (ARBench) [migrated](https://gitlab.com/robosphere/forks/ARBench/-/commit/2111b33c756ee6c473d1300b95fa90921f625a1d) to FreeCAD 0.19 version and merged with freecad_to_gazebo package. It will be used as general purpose tool for export geometric meta-data to simulations from 3D-models.
+
+### Simulation
+
+* [Added](https://gitlab.com/robosphere/robossembler-ros2/-/commit/3d34680aa9a78830c8930e36d8b9e285621d508c) visual meshes for robot manipulator ROS2 support package
 
 ---
 
