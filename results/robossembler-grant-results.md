@@ -6,6 +6,7 @@
 
 | No. | Deliverable | Link | Notes |
 |:---:|:-----------:|:----:|:-----:|
+|  0  | Video summary | [youtube](https://youtu.be/AFROcGW73j0) | English subtitles, [text version](https://robosphere.gitlab.io/robossembler-docs/blog/robossembler-1st-year-summary) |
 |  1  | 3D-printed 6-axis robot-manipulator without fasteners | [git](https://gitlab.com/robosphere/roboarm-diy-version) | [CAD models](https://gitlab.com/robosphere/roboarm-diy-version/-/tree/main/src), [schematics/PCB](https://gitlab.com/robosphere/roboarm-diy-version/-/tree/main/brd), [mech math report](https://gitlab.com/robosphere/roboarm-diy-version/-/blob/main/calc/Mathcad%20-%20reduce.pdf) |
 |  2  | Molded 6-axis robot-manipulator without fasteners | [git](https://gitlab.com/robosphere/roboarm) |  [link mold](https://gitlab.com/robosphere/cnc/roboarm-link-mold) for link manufactoring, [servo drive](https://gitlab.com/robosphere/servo) |
 |  3  | Modular components for creating customized cubic workspaces | [git](https://gitlab.com/robosphere/cnc/cubic-modular-workspace) | [Blender assets](https://gitlab.com/robosphere/cnc/cubic-modular-workspace/-/tree/main/blender-assets) ([demo-video](https://www.youtube.com/watch?v=sJLnEXayEq4)) |
