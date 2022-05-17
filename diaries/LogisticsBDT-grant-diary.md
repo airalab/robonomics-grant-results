@@ -54,5 +54,57 @@ TASK: Case development
     - Ability to resale using crypto currencies
     - Ability to verify the luxury products history
 
+## Grant Diary no. 2
+
+* **Date**: 31.03.2022
+TASK: Literature review for validation of Interview questions
+- selected relevant papers
+- reviewed papers
+- identified validation points for the interview questions.
+- Sample validation points from article1: Attitude toward counterfeits; Personal integrity; Status  consumption/status- seeking; Materialism; Value consciousness; Personal gratification etc.
+- Sample validation points from article2: Novelty seeking; Integrity; Status consumption; Attitude toward counter-feiting; Perceived risk; Information susceptibility; Physical vanity; Achievement vanity; Intention to purchase.
+- Sample validation points from article3: Luxury Item Ownership; Value Advantage; Ethical Concerns; Social Identity; Social  Judgment; Network Consultation; Fashion Orientation; Poverty Anxiety; Positive China Attitude.
 
 
+## Grant Diary no. 3
+
+* **Date**: 15.04.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Producing diagram model of the app functions
+
+TASK: Outlining the UI of the LogisticsBDT app
+- Producing Figma representation of the user interface of the app
+
+TASK: Interview process
+- Contacting respondents (users, sellers and producers of luxury accessories)
+- Drafting initial email for the respondents
+- Finalizing survey template and preparing for expert interviews.  
+
+
+## Grant Diary no. 4
+
+* **Date**: 30.04.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Conducting expert interviews for sellers and producers and Luxury accessories
+- Analyzing data and developing AS-IS process for luxury products authentication
+
+
+TASK: Implementation tasks
+- Comleting the user-interface design for LogisticsBDT App
+- Completing set up for Robonomics node 
+- Running test sample data upload to Robonomics test network with the Logistics server Node
+
+
+## Grant Diary no. 5
+
+* **Date**: 15.05.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Conducting expert interviews
+- preparing qunatitative survey for luxury product users
+
+TASK: Implementation tasks
+- LogisticsBDT python rest api setup completed and pushed to the repo
+- Successfully deployed Robonoics node and IPFS and logisticsBDT server
