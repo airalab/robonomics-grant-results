@@ -108,3 +108,14 @@ TASK: Outlining the initial requirements of the LogisticsBDT app
 TASK: Implementation tasks
 - LogisticsBDT python rest api setup completed and pushed to the repo
 - Successfully deployed Robonoics node and IPFS and logisticsBDT server
+
+## Grant Diary no. 6
+
+* **Date**: 31.05.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Completed expert interviews and data preparation
+- Ongoing is the user survey data collection
+
+TASK: Implementation tasks
+- Ongoing design and implementation of a web app for sending luxury product NFT meta data to IPFS and robonomics test network
