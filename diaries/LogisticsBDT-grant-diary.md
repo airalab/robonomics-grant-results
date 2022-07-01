@@ -120,6 +120,7 @@ TASK: Outlining the initial requirements of the LogisticsBDT app
 TASK: Implementation tasks
 - Ongoing design and implementation of a web app for sending luxury product NFT meta data to IPFS and robonomics test network
 
+
 ## Grant Diary no. 7
 
 * **Date**: 15.06.2022
@@ -147,4 +148,3 @@ TASK: Implementing LogsiticsBDT App
 - completed LuxuryNFT minting function
 - implementing LuxuryNFT search function
 - implementing brand registration function
-
