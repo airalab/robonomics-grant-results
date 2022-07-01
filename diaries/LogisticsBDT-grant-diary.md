@@ -135,4 +135,16 @@ TASK: Implementing LogsiticsBDT App
 - Ongoing: implementing LuxuryNFT search function (User interface interaction with IPFS and Robonomics components)
 - Ongoing: implementing LuxuryNFT transfer function (User interface interaction with IPFS and Robonomics components)
 
+## Grant Diary no. 8
+
+* **Date**: 30.06.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+-Completed expert interview for luxury product authentification
+-Completed user reviews for luxury product authentification
+
+TASK: Implementing LogsiticsBDT App
+-completed LuxuryNFT minting function
+-implementing LuxuryNFT search function
+-implementing brand registration function
 
