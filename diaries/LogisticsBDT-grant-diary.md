@@ -140,11 +140,11 @@ TASK: Implementing LogsiticsBDT App
 * **Date**: 30.06.2022
 
 TASK: Outlining the initial requirements of the LogisticsBDT app
--Completed expert interview for luxury product authentification
--Completed user reviews for luxury product authentification
+- Completed expert interview for luxury product authentification
+- Completed user reviews for luxury product authentification
 
 TASK: Implementing LogsiticsBDT App
--completed LuxuryNFT minting function
--implementing LuxuryNFT search function
--implementing brand registration function
+- completed LuxuryNFT minting function
+- implementing LuxuryNFT search function
+- implementing brand registration function
 
