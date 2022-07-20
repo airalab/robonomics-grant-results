@@ -148,3 +148,18 @@ TASK: Implementing LogsiticsBDT App
 - completed LuxuryNFT minting function
 - implementing LuxuryNFT search function
 - implementing brand registration function
+
+## Grant Diary no. 9
+
+* **Date**: 15.07.2022
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Completed LuxuryNFT minting function
+- Completed LuxuryNFT search function
+- Completed LuxuryNFT registration function
+- Implementing LuxuryNFT transfer function
+
+TASK: Outlining the initial requirements of the LogisticsBDT app
+- Analyzing data from expert interview results
+- Analyzing data from Luxury user surveys
+- Preparing paper publication drafts
